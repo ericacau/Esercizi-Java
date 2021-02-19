@@ -19,12 +19,15 @@ public class ContoCorrente {
 		saldo=saldoIniziale;
 		
 		if (tipoCliente.equals("family")||tipoCliente.equals("business"))
-			tipo=tipoCliente;
+			tipo=tipoCliente;U
 		else {
 			// se il tipoCliente ricevuto è sbagliato imposta "family"
 			System.out.println("Creazione conto " + numero + ": tipo " + tipoCliente + " errato!");
 			tipo="family";
 		}
+	}
+
+	public ContoCorrente(int i) {
 	}
 
 	// metodo per il versamento di somme

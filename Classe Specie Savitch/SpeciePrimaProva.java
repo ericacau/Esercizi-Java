@@ -12,7 +12,7 @@ public class SpeciePrimaProva {
         System.out.println("A quanto ammonta la popolazione");
         popolazione = input.nextInt();
         System.out.println("Inserisci il tasso di crescita" + "(% crescita per anno)");
-        tassocrescita ) input.nextDouble();
+        tassocrescita = input.nextDouble();
     }
     public void scriviOutput(){
         System.out.println("Nome = " + nome);
