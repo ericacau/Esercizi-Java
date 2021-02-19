@@ -2,8 +2,9 @@ public class ContoCorrente {
 
     private double saldo;
 
-    public ContoCorrente(double saldoIniziale) {
+    public ContoCorrente(double saldoIniziale, int numeroConto) {
         saldo = saldoIniziale;
+        numero = numeroConto;
     }
 
     public void versa(double somma) {
@@ -24,5 +25,9 @@ public class ContoCorrente {
 
     public double ottieniSaldo(){
         return saldo;
+    }
+
+    public double ottieniNumero(){
+        return numero;
     }
 }

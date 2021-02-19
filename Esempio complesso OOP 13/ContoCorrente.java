@@ -11,18 +11,18 @@ public class ContoCorrente {
 	private static int numeroUltimoContoCreato=1000; // numero ultimo conto corrente creato
 
 	// costruttore della classe
-	public ContoCorrente(String tipoCliente, double saldoIniziale) {
+	public ContoCorrente(int i, double saldoIniziale) {
 		
 		numero=numeroUltimoContoCreato+1;
 		numeroUltimoContoCreato++;
 		
 		saldo=saldoIniziale;
 		
-		if (tipoCliente.equals("family")||tipoCliente.equals("business"))
-			tipo=tipoCliente;U
+		if (i.equals("family")||i.equals("business"))
+			tipo=i;U
 		else {
 			// se il tipoCliente ricevuto è sbagliato imposta "family"
-			System.out.println("Creazione conto " + numero + ": tipo " + tipoCliente + " errato!");
+			System.out.println("Creazione conto " + numero + ": tipo " + i + " errato!");
 			tipo="family";
 		}
 	}
