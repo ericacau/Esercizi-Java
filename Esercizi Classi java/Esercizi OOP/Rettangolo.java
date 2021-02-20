@@ -2,11 +2,10 @@ public class Rettangolo{
     //stato interno del triangolo
     private double altezza;
     private double base;
-    private double area;
     //metodi
-    public Rettangolo(double nuovaAltezza, double nuovaBase){
-        altezza = nuovaAltezza;
-        base = nuovaBase;
+    public Rettangolo(double altezzaIniziale, double baseIniziale){
+        altezza = altezzaIniziale;
+        base = baseIniziale;
     }
 
     public void ridimensiona(double nuovaAltezza, double nuovaBase) {
@@ -14,7 +13,7 @@ public class Rettangolo{
         base = nuovaBase;
     }
 
-    public double perimetro(double altezza, double base){
+    public double perimetro(){
         return 2*(altezza+base);
     }
 

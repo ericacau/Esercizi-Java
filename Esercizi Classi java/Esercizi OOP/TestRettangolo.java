@@ -9,9 +9,11 @@ public class TestRettangolo {
     //(stampando i risultati), ridimensiona uno dei tre rettangoli 
     //e ristampa le somme.
 
-    System.out.println("La somma delle aree dei tre rettangoli: " +r1.area()+ r2.area()+ r3.area());
-    System.out.println("La somma dei perimetri dei tre rettangoli  " + r1.perimetro()+ r2.perimetro()+ r3.perimetro());
-
-    }
+    System.out.println("La somma delle aree dei tre rettangoli: " +r1.area() + r2.area()+ r3.area());
+    System.out.println("La somma del perimetro dei tre rettangoli: " +r1.perimetro() + r2.perimetro()+ r3.perimetro());
     
+    System.out.println("Ridimensiono il primo rettangolo...");
+
+}
+
 }
